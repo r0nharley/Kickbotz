@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.4 on darwin)" generated="20181220 15:47:50.110">
+<suite id="s1" name="Launch" source="/Users/ronharley/AutomatedTests/Kickbotz/Central/Launch.robot">
+<test id="s1-t1" name="Boost">
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20181220 15:47:50.236" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20181220 15:47:50.236" endtime="20181220 15:47:52.095"></status>
+</kw>
+<status status="PASS" starttime="20181220 15:47:50.235" endtime="20181220 15:47:52.096"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Boost Order</arg>
+</arguments>
+<status status="PASS" starttime="20181220 15:47:52.096" endtime="20181220 15:47:52.097"></status>
+</kw>
+<kw name="MensWorkflow" library="4didas">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${ShoeURL}</arg>
+</arguments>
+<msg timestamp="20181220 15:47:52.097" level="INFO">Opening url 'https://www.adidas.com/us/ultraboost-shoes/F36153.html'</msg>
+<status status="PASS" starttime="20181220 15:47:52.097" endtime="20181220 15:47:55.796"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20181220 15:47:55.796" endtime="20181220 15:47:56.065"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:47:57.138" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-81.png"&gt;&lt;img src="selenium-screenshot-81.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:47:56.065" endtime="20181220 15:47:57.138"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${SelectSize}</arg>
+</arguments>
+<msg timestamp="20181220 15:47:57.139" level="INFO">Clicking element '//div[@class='gl-dropdown__select label dropdown-select'][contains(.,'Select size')]'.</msg>
+<status status="PASS" starttime="20181220 15:47:57.139" endtime="20181220 15:47:57.358"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:47:58.008" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-82.png"&gt;&lt;img src="selenium-screenshot-82.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:47:57.358" endtime="20181220 15:47:58.008"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${EnterSize10.5}</arg>
+</arguments>
+<msg timestamp="20181220 15:47:58.008" level="INFO">Clicking element '//div[@class='gl-square-list__cta'][contains(.,'10.5')]'.</msg>
+<status status="PASS" starttime="20181220 15:47:58.008" endtime="20181220 15:47:58.245"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:47:58.890" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-83.png"&gt;&lt;img src="selenium-screenshot-83.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:47:58.245" endtime="20181220 15:47:58.890"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${AddToBag}</arg>
+</arguments>
+<msg timestamp="20181220 15:47:58.890" level="INFO">Clicking element '//button[@type='submit'][contains(.,'Add To Bag')]'.</msg>
+<status status="PASS" starttime="20181220 15:47:58.890" endtime="20181220 15:47:59.065"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${AddToBagSuccess}</arg>
+</arguments>
+<status status="PASS" starttime="20181220 15:47:59.065" endtime="20181220 15:48:00.520"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:48:01.127" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-84.png"&gt;&lt;img src="selenium-screenshot-84.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:48:00.520" endtime="20181220 15:48:01.127"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CheckoutButton}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:01.127" level="INFO">Clicking element '//a[@class='gl-cta gl-cta--secondary gl-cta--full-width'][contains(.,'Checkout')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:01.127" endtime="20181220 15:48:03.910"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:48:04.566" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-85.png"&gt;&lt;img src="selenium-screenshot-85.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:48:03.910" endtime="20181220 15:48:04.567"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${ShippingAddressHeader}</arg>
+</arguments>
+<status status="PASS" starttime="20181220 15:48:04.567" endtime="20181220 15:48:04.723"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:48:05.210" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-86.png"&gt;&lt;img src="selenium-screenshot-86.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:48:04.723" endtime="20181220 15:48:05.210"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${FirstName}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:05.210" level="INFO">Clicking element '//input[contains(@id,'firstName')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:05.210" endtime="20181220 15:48:05.299"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${FirstName}</arg>
+<arg>Hello</arg>
+</arguments>
+<msg timestamp="20181220 15:48:05.300" level="INFO">Typing text 'Hello' into text field '//input[contains(@id,'firstName')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:05.299" endtime="20181220 15:48:05.513"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${LastName}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:05.514" level="INFO">Clicking element '//input[contains(@id,'lastName')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:05.514" endtime="20181220 15:48:05.588"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${LastName}</arg>
+<arg>World</arg>
+</arguments>
+<msg timestamp="20181220 15:48:05.589" level="INFO">Typing text 'World' into text field '//input[contains(@id,'lastName')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:05.589" endtime="20181220 15:48:05.725"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:48:06.214" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-87.png"&gt;&lt;img src="selenium-screenshot-87.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:48:05.726" endtime="20181220 15:48:06.215"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${Address1}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.215" level="INFO">Clicking element '//input[contains(@id,'address1')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.215" endtime="20181220 15:48:06.285"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${Address1}</arg>
+<arg>123 Main St</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.286" level="INFO">Typing text '123 Main St' into text field '//input[contains(@id,'address1')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.286" endtime="20181220 15:48:06.506"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${Address1}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.507" level="INFO">Clicking element '//input[contains(@id,'address1')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.506" endtime="20181220 15:48:06.555"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${City}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.555" level="INFO">Clicking element '//input[contains(@id,'city')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.555" endtime="20181220 15:48:06.639"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${City}</arg>
+<arg>Miami</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.639" level="INFO">Typing text 'Miami' into text field '//input[contains(@id,'city')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.639" endtime="20181220 15:48:06.768"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${StateDropdown}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.768" level="INFO">Clicking element '(//div[contains(.,'Select State')])[13]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.768" endtime="20181220 15:48:06.861"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${StateSelection}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.861" level="INFO">Clicking element '//div[@data-value='FL'][contains(.,'Florida')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.861" endtime="20181220 15:48:06.936"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${PostalCode}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:06.936" level="INFO">Clicking element '//input[contains(@id,'postalCode')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:06.936" endtime="20181220 15:48:07.028"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PostalCode}</arg>
+<arg>33132</arg>
+</arguments>
+<msg timestamp="20181220 15:48:07.028" level="INFO">Typing text '33132' into text field '//input[contains(@id,'postalCode')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:07.028" endtime="20181220 15:48:07.148"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${PhoneNumber}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:07.148" level="INFO">Clicking element '//input[contains(@id,'phone')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:07.148" endtime="20181220 15:48:07.220"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PhoneNumber}</arg>
+<arg>212-222-2222</arg>
+</arguments>
+<msg timestamp="20181220 15:48:07.220" level="INFO">Typing text '212-222-2222' into text field '//input[contains(@id,'phone')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:07.220" endtime="20181220 15:48:07.421"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${Email}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:07.421" level="INFO">Clicking element '//input[contains(@id,'emailAddress')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:07.421" endtime="20181220 15:48:07.511"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${Email}</arg>
+<arg>Hello@world.com</arg>
+</arguments>
+<msg timestamp="20181220 15:48:07.511" level="INFO">Typing text 'Hello@world.com' into text field '//input[contains(@id,'emailAddress')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:07.511" endtime="20181220 15:48:07.762"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${ReviewPayButton}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:07.763" level="INFO">Clicking element '//button[contains(.,'Review and Pay')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:07.763" endtime="20181220 15:48:11.646"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${PaymentMethodHeader}</arg>
+</arguments>
+<status status="PASS" starttime="20181220 15:48:11.646" endtime="20181220 15:48:11.801"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CreditCardNumber}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:11.802" level="INFO">Clicking element '//input[@type='text'][contains(@id,'number')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:11.802" endtime="20181220 15:48:12.464"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${CreditCardNumber}</arg>
+<arg>4111 1111 1111 1111</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.465" level="INFO">Typing text '4111 1111 1111 1111' into text field '//input[@type='text'][contains(@id,'number')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.464" endtime="20181220 15:48:12.612"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CCExMonthDropdown}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.612" level="INFO">Clicking element '//div[@data-default-value='Month']'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.612" endtime="20181220 15:48:12.684"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CCExMonthSelection}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.685" level="INFO">Clicking element '//div[@data-value='01'][contains(.,'01-January')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.684" endtime="20181220 15:48:12.765"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CCExpYearDropdown}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.766" level="INFO">Clicking element '//div[@data-default-value='Year']'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.766" endtime="20181220 15:48:12.827"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CCExpYearSelection}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.828" level="INFO">Clicking element '//div[@data-value='2020']'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.827" endtime="20181220 15:48:12.897"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${CCCVNumber}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.897" level="INFO">Clicking element '//input[@type='text'][contains(@id,'cvn')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.897" endtime="20181220 15:48:12.964"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${CCCVNumber}</arg>
+<arg>123</arg>
+</arguments>
+<msg timestamp="20181220 15:48:12.964" level="INFO">Typing text '123' into text field '//input[@type='text'][contains(@id,'cvn')]'.</msg>
+<status status="PASS" starttime="20181220 15:48:12.964" endtime="20181220 15:48:13.028"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${PlaceOrderButton}</arg>
+</arguments>
+<msg timestamp="20181220 15:48:13.029" level="INFO">Clicking element '(//button[@type='submit'][contains(.,'Place My Order')])[2]'.</msg>
+<status status="PASS" starttime="20181220 15:48:13.028" endtime="20181220 15:48:13.134"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20181220 15:48:16.134" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20181220 15:48:13.134" endtime="20181220 15:48:16.135"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181220 15:48:18.017" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-88.png"&gt;&lt;img src="selenium-screenshot-88.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181220 15:48:16.135" endtime="20181220 15:48:18.017"></status>
+</kw>
+<status status="PASS" starttime="20181220 15:47:52.097" endtime="20181220 15:48:18.017"></status>
+</kw>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20181220 15:48:18.018" endtime="20181220 15:48:18.147"></status>
+</kw>
+<status status="PASS" starttime="20181220 15:48:18.017" endtime="20181220 15:48:18.148"></status>
+</kw>
+<status status="PASS" starttime="20181220 15:47:50.235" endtime="20181220 15:48:18.148" critical="yes"></status>
+</test>
+<doc>Kickbotz Execution</doc>
+<status status="PASS" starttime="20181220 15:47:50.112" endtime="20181220 15:48:18.149"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Launch">Launch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
