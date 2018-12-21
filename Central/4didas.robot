@@ -52,7 +52,11 @@ MensWorkflow
     Shipping Postal Code        33132
     Shipping Phone Number       212-222-2222
     Shipping Email              WebsterJ@Gmail.com
-    Credit Card Entry
+    Credit Card Number Entry    4111 1111 1111 1111
+    Credit Card Exp Month       01  01-January
+    Credit Card Exp Year        2020
+    Credit Card Code            345
+
 
 
 Navigate to Page
@@ -144,17 +148,36 @@ Shipping Email
     Click Element  ${ReviewPayButton}
 
 
-Credit Card Entry
-    [Tags]  Credit Card Info
+Credit Card Number Entry
+    [Tags]  Credit Card Page Confirmation
+    [Arguments]  ${CCN}
+    ${CCN1}=  Set Variable  ${CCN}
     Wait Until Element is Visible  ${PaymentMethodHeader}
     Click Element  ${CreditCardNumber}
-    Input Text  ${CreditCardNumber}  4111 1111 1111 1111
+    Input Text  ${CreditCardNumber}  ${CCN1}
+
+
+Credit Card Exp Month
+    [Tags]  CC Expiration Month
+    [Arguments]  ${MNum}  ${MNumFull}
+    ${MSelection}=  Set Variable  //div[@data-value='${MNum}'][contains(.,'${MNumFull}')]
     Click Element  ${CCExMonthDropdown}
-    Click Element  ${CCExMonthSelection}
+    Click Element  ${MSelection}
+
+
+Credit Card Exp Year
+    [Tags]  CC Expiration Year
+    [Arguments]   ${ExYear}
+    ${ExYear1}=  Set Variable  //div[@data-value='${ExYear}']
     Click Element  ${CCExpYearDropdown}
-    Click Element  ${CCExpYearSelection}
+    Click Element  ${ExYear1}
     Click Element  ${CCCVNumber}
-    Input Text  ${CCCVNumber}   123
+
+Credit Card Code
+    [Tags]  CC CVN Code
+    [Arguments]  ${CCVN}
+    ${CCVN1}=  Set Variable  ${CCVN}
+    Input Text  ${CCCVNumber}   ${CCVN1}
     Click Element  ${PlaceOrderButton}
     Sleep  3
     Capture Page Screenshot
