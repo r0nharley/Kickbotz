@@ -78,3 +78,304 @@ JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&sess
 JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus9b89dd138356e953462fd09d3c, line 174: TypeError: td_0O is not a function
 JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus9b89dd138356e953462fd09d3c, line 192: TypeError: td_2P is not a function
 1545420665482	Marionette	INFO	Stopped listening on port 57565
+1545427700787	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.Odbv4kNMEoxT"
+*** You are running in headless mode.
+1545427701190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545427701190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545427702364	Marionette	INFO	Listening on port 60282
+1545427702452	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript error: https://adidas.my.salesforce.com/embeddedservice/5.0/frame/chasitor.esw.min.js, line 1: TypeError: this.chasitorSettings is undefined
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 176: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 176: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 176: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 176: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 176: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 176: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 185: TypeError: td_2E.tdz_b832211ec8aa4e179f0c5d94d0c516bd is undefined
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus4fa088ec9d3acf3baaace5d852, line 22: TypeError: td_2Q is not a function
+1545427735789	Marionette	INFO	Stopped listening on port 60282
+1545428790498	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.BDVn8oBxzgeN"
+*** You are running in headless mode.
+1545428790872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545428790872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545428791986	Marionette	INFO	Listening on port 60610
+1545428792057	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript error: https://adidas.my.salesforce.com/embeddedservice/5.0/frame/chasitor.esw.min.js, line 1: TypeError: this.chasitorSettings is undefined
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 180: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 180: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 180: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 180: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 180: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 180: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 14: TypeError: td_3W is not a function
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 191: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 191: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 191: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 191: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 191: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 191: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus37821cbebbd971af21e41b0648, line 155: TypeError: td_0W is not a function
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1545428826844	Marionette	INFO	Stopped listening on port 60610
+JavaScript error: https://c.go-mpulse.net/boomerang/Y6WS5-W29Q5-F26W3-7N3TB-XKQFD, line 16: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1545430114758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.CfgOMK2I15hQ"
+*** You are running in headless mode.
+1545430115125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545430115125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545430116230	Marionette	INFO	Listening on port 60998
+1545430116302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545430121720	Marionette	INFO	Stopped listening on port 60998
+1545430188283	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.m3pVP71nOyNj"
+*** You are running in headless mode.
+1545430188613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545430188613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545430189665	Marionette	INFO	Listening on port 61046
+1545430189729	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 57: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 57: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 57: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 57: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 57: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 57: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 178: TypeError: td_l is undefined
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 5: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 5: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 5: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 5: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 5: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 5: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusb307453aff0e1bff4b408001fb, line 77: TypeError: td_2y is not a function
+1545430220646	Marionette	INFO	Stopped listening on port 61046
+1545431556638	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.qTj98551xH65"
+*** You are running in headless mode.
+1545431557007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545431557008	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545431558101	Marionette	INFO	Listening on port 61363
+1545431558195	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1545431641651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.fmHrobZ9Ce9g"
+*** You are running in headless mode.
+1545431642004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545431642004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545431643077	Marionette	INFO	Listening on port 61454
+1545431643101	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4282, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1545431682102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.l0J8zncnl5GX"
+*** You are running in headless mode.
+1545431682431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545431682431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545431683480	Marionette	INFO	Listening on port 61516
+1545431683544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript error: https://adidas.my.salesforce.com/embeddedservice/5.0/frame/chasitor.esw.min.js, line 1: TypeError: this.chasitorSettings is undefined
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus10249afc9aa31b4914907d4917, line 206: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus10249afc9aa31b4914907d4917, line 206: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus10249afc9aa31b4914907d4917, line 206: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus10249afc9aa31b4914907d4917, line 206: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus10249afc9aa31b4914907d4917, line 206: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasus10249afc9aa31b4914907d4917, line 206: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1545431708915	Marionette	INFO	Stopped listening on port 61516
+1545431724996	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/r0/ntmf9f85773cl0mzkwy6t6mm0000gn/T/rust_mozprofile.ZSkb4M1oDmU1"
+*** You are running in headless mode.
+1545431725354	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545431725354	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545431726426	Marionette	INFO	Listening on port 61724
+1545431726445	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-4599367, line 147: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 69: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 69: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 69: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 69: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 69: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 69: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.adidas.com/static/on/demandware.static/Sites-adidas-US-Site/-/en_US/v1545380233876/js/adidas-build-COMMON.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://live.adyen.com/hpp/js/df.js?v=20181221, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 97: TypeError: td_3h is not a function
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 78: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 78: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 78: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 78: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 78: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 78: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://h.online-metrix.net/fp/check.js?org_id=k8vif92e&session_id=adidasusc34492e49593f514b7a318b976, line 122: TypeError: td_1x is not a function
+1545431757419	Marionette	INFO	Stopped listening on port 61724
