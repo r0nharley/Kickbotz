@@ -1,23 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.6.4 on darwin)" generated="20181221 11:52:17.682">
+<robot generator="Robot 3.0.4 (Python 3.6.4 on darwin)" generated="20181221 12:45:06.708">
 <suite id="s1" name="Launch" source="/Users/ronharley/AutomatedTests/Kickbotz/Central/Launch.robot">
 <test id="s1-t1" name="Boost">
-<kw name="Begin Web Test" type="setup">
-<msg timestamp="20181221 11:52:17.707" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
-<status status="FAIL" starttime="20181221 11:52:17.707" endtime="20181221 11:52:17.707"></status>
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20181221 12:45:06.824" level="INFO">Opening browser 'headlessfirefox' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20181221 12:45:06.824" endtime="20181221 12:45:09.384"></status>
 </kw>
-<kw name="End Web Test" type="teardown">
-<msg timestamp="20181221 11:52:17.708" level="FAIL">No keyword with name 'End Web Test' found.</msg>
-<status status="FAIL" starttime="20181221 11:52:17.708" endtime="20181221 11:52:17.708">No keyword with name 'End Web Test' found.</status>
+<status status="PASS" starttime="20181221 12:45:06.824" endtime="20181221 12:45:09.384"></status>
 </kw>
-<status status="FAIL" starttime="20181221 11:52:17.705" endtime="20181221 11:52:17.708" critical="yes">Setup failed:
-No keyword with name 'Begin Web Test' found.
-
-Also teardown failed:
-No keyword with name 'End Web Test' found.</status>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Boost Order</arg>
+</arguments>
+<status status="PASS" starttime="20181221 12:45:09.385" endtime="20181221 12:45:09.385"></status>
+</kw>
+<kw name="MensWorkflow" library="4didas">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${ShoeURL}</arg>
+</arguments>
+<msg timestamp="20181221 12:45:09.386" level="INFO">Opening url 'https://www.adidas.com/us/ultraboost-shoes/F36153.html'</msg>
+<status status="PASS" starttime="20181221 12:45:09.386" endtime="20181221 12:45:12.915"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20181221 12:45:12.915" endtime="20181221 12:45:16.426"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181221 12:45:16.586" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181221 12:45:16.426" endtime="20181221 12:45:16.586"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${SelectSize}</arg>
+</arguments>
+<msg timestamp="20181221 12:45:16.587" level="INFO">Clicking element '//div[@class='gl-dropdown__select label dropdown-select'][contains(.,'Select size')]'.</msg>
+<status status="PASS" starttime="20181221 12:45:16.587" endtime="20181221 12:45:16.893"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181221 12:45:16.989" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181221 12:45:16.894" endtime="20181221 12:45:16.989"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${EnterSize10.5}</arg>
+</arguments>
+<msg timestamp="20181221 12:45:16.989" level="INFO">Clicking element '//div[@class='gl-square-list__cta'][contains(.,'10.5')]'.</msg>
+<status status="PASS" starttime="20181221 12:45:16.989" endtime="20181221 12:45:17.454"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181221 12:45:17.544" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181221 12:45:17.454" endtime="20181221 12:45:17.545"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${AddToBag}</arg>
+</arguments>
+<msg timestamp="20181221 12:45:17.545" level="INFO">Clicking element '//button[@type='submit'][contains(.,'Add To Bag')]'.</msg>
+<status status="PASS" starttime="20181221 12:45:17.545" endtime="20181221 12:45:17.935"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${AddToBagSuccess}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<status status="FAIL" starttime="20181221 12:45:18.148" endtime="20181221 12:45:18.148"></status>
+</kw>
+<msg timestamp="20181221 12:45:18.148" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<status status="FAIL" starttime="20181221 12:45:17.936" endtime="20181221 12:45:18.149"></status>
+</kw>
+<status status="FAIL" starttime="20181221 12:45:09.385" endtime="20181221 12:45:18.149"></status>
+</kw>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<msg timestamp="20181221 12:45:18.151" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x109065860&gt;: Failed to establish a new connection: [Errno 61] Connection refused',)': /session/e0e4dfb5-615b-ef43-913a-be515bc480cd</msg>
+<msg timestamp="20181221 12:45:18.151" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x109065978&gt;: Failed to establish a new connection: [Errno 61] Connection refused',)': /session/e0e4dfb5-615b-ef43-913a-be515bc480cd</msg>
+<msg timestamp="20181221 12:45:18.152" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x107e3b780&gt;: Failed to establish a new connection: [Errno 61] Connection refused',)': /session/e0e4dfb5-615b-ef43-913a-be515bc480cd</msg>
+<status status="PASS" starttime="20181221 12:45:18.150" endtime="20181221 12:45:18.153"></status>
+</kw>
+<status status="PASS" starttime="20181221 12:45:18.149" endtime="20181221 12:45:18.153"></status>
+</kw>
+<status status="FAIL" starttime="20181221 12:45:06.823" endtime="20181221 12:45:18.153" critical="yes">Execution terminated by signal</status>
 </test>
 <doc>Kickbotz Execution</doc>
-<status status="FAIL" starttime="20181221 11:52:17.685" endtime="20181221 11:52:17.709"></status>
+<status status="FAIL" starttime="20181221 12:45:06.711" endtime="20181221 12:45:18.154"></status>
 </suite>
 <statistics>
 <total>
@@ -31,7 +114,10 @@ No keyword with name 'End Web Test' found.</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20181221 11:52:17.704" level="ERROR">Error in file '/Users/ronharley/AutomatedTests/Kickbotz/Central/Launch.robot': Resource file '/Users/ronharley/AutomatedTests/Kickbotz/AutomatedTests/Kickbotz/Central/Common.robot' does not exist.</msg>
-<msg timestamp="20181221 11:52:17.705" level="ERROR">Error in file '/Users/ronharley/AutomatedTests/Kickbotz/Central/Launch.robot': Resource file '/Users/ronharley/AutomatedTests/Kickbotz/AutomatedTests/Kickbotz/Central/4didas.robot' does not exist.</msg>
+<msg timestamp="20181221 12:45:06.822" level="ERROR">Error in file '/Users/ronharley/AutomatedTests/Kickbotz/Central/4didas.robot': Resource file '/Users/ronharley/AutomatedTests/Kickbotz/AutomatedTests/Kickbotz/Central/Common.robot' does not exist.</msg>
+<msg timestamp="20181221 12:45:18.148" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<msg timestamp="20181221 12:45:18.151" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x109065860&gt;: Failed to establish a new connection: [Errno 61] Connection refused',)': /session/e0e4dfb5-615b-ef43-913a-be515bc480cd</msg>
+<msg timestamp="20181221 12:45:18.151" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x109065978&gt;: Failed to establish a new connection: [Errno 61] Connection refused',)': /session/e0e4dfb5-615b-ef43-913a-be515bc480cd</msg>
+<msg timestamp="20181221 12:45:18.152" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x107e3b780&gt;: Failed to establish a new connection: [Errno 61] Connection refused',)': /session/e0e4dfb5-615b-ef43-913a-be515bc480cd</msg>
 </errors>
 </robot>
