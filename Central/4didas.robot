@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 
-Resource   ${EXECDIR}/AutomatedTests/Kickbotz/Central/Common.robot
+Resource   ${EXECDIR}/Central/Common.robot
 
 
 *** Variables ***
