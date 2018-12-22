@@ -41,7 +41,7 @@ ${PlaceOrderButton}         (//button[@type='submit'][contains(.,'Place My Order
 
 MensWorkflow
     Navigate to Page
-    Select Shoe Size            10.5
+    Select Shoe Size            %{SHOE_SIZE}
     Add to Bag
     Shipping Page Confirmation
     Shipping First Name         Webster
@@ -67,8 +67,8 @@ Navigate to Page
 
 Select Shoe Size
     [Tags]  Select Shoe Size
-    [Arguments]  ${Shoe_Size}
-    ${EnterSize}=   Set Variable  //div[@class='gl-square-list__cta'][contains(.,'${Shoe_Size}')]
+    [Arguments]  %{SHOE_SIZE}
+    ${EnterSize}=   Set Variable  //div[@class='gl-square-list__cta'][contains(.,'%{SHOE_SIZE}')]
     Wait Until Element Is Visible  ${SelectSize}  10
     Click Element  ${SelectSize}
     Capture Page Screenshot
