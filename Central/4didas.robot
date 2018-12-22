@@ -61,7 +61,7 @@ MensWorkflow
 
 Navigate to Page
     [Tags]  Go to shoe url
-    go to   ${ShoeURL}
+    go to   %{SHOEURL}
     maximize browser window
     Capture Page Screenshot
 
