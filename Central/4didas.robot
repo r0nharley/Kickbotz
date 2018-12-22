@@ -44,18 +44,18 @@ MensWorkflow
     Select Shoe Size
     Add to Bag
     Shipping Page Confirmation
-    Shipping First Name         Webster
-    Shipping Last Name          Jabro
-    Shipping Address 1          101 Jefferson Ave
-    Shipping City               Miami
-    Shipping State              FL  Florida
-    Shipping Postal Code        33132
-    Shipping Phone Number       212-222-2222
-    Shipping Email              WebsterJ@Gmail.com
-    Credit Card Number Entry    4111 1111 1111 1111
-    Credit Card Exp Month       01  01-January
-    Credit Card Exp Year        2020
-    Credit Card Code            345
+    Shipping First Name
+    Shipping Last Name
+    Shipping Address 1
+    Shipping City
+    Shipping State
+    Shipping Postal Code
+    Shipping Phone Number
+    Shipping Email
+    Credit Card Number Entry
+    Credit Card Exp Month
+    Credit Card Exp Year
+    Credit Card Code
 
 
 
@@ -90,59 +90,59 @@ Shipping Page Confirmation
 
 Shipping First Name
     [Tags]  First Name Entry
-    [Arguments]  ${F_Name}
-    ${FName}=  Set Variable  ${F_Name}
+    #[Arguments]  ${F_Name}
+    ${FName}=  Set Variable  %{F_NAME}
     Click Element  ${FirstName}
     Input Text  ${FirstName}   ${FName}
 
 Shipping Last Name
     [Tags]  Last Name Entry
-    [Arguments]  ${L_Name}
-    ${LName}=  Set Variable  ${L_Name}
+    #[Arguments]  ${L_Name}
+    ${LName}=  Set Variable  %{L_NAME}
     Click Element  ${LastName}
     Input Text  ${LastName}   ${LName}
     Capture Page Screenshot
 
 Shipping Address 1
     [Tags]  Address Entry
-    [Arguments]  ${Addy_1}
-    ${Addy1}=  Set Variable  ${Addy_1}
+    #[Arguments]  ${Addy_1}
+    ${Addy1}=  Set Variable  %{ADDY_1}
     Click Element  ${Address1}
     Input Text  ${Address1}  ${Addy1}
     Click Element  ${Address1}
 
 Shipping City
     [Tags]  City Entry
-    [Arguments]  ${Cty}
-    ${Cty1}=  Set Variable  ${Cty}
+    #[Arguments]  ${Cty}
+    ${Cty1}=  Set Variable  %{CTY}
     Click Element  ${City}
     Input Text  ${City}   ${Cty1}
 
 Shipping State
     [Tags]  State Entry
-    [Arguments]  ${State_S}   ${State_F}
-    ${State1}=  Set Variable  //div[@data-value='${State_S}'][contains(.,'${State_F}')]
+    #[Arguments]  ${State_S}   ${State_F}
+    ${State1}=  Set Variable  //div[@data-value='%{STATE_S}'][contains(.,'%{STATE_F}')]
     Click Element   ${StateDropdown}
     Click Element   ${State1}
 
 Shipping Postal Code
     [Tags]  Postal Code Entry
-    [Arguments]  ${Zip}
-    ${Zip_Code}=  Set Variable  ${Zip}
+    #[Arguments]  ${Zip}
+    ${Zip_Code}=  Set Variable  %{ZIP}
     Click Element   ${PostalCode}
     Input Text  ${PostalCode}  ${Zip_Code}
 
 Shipping Phone Number
     [Tags]  Phone Number Entry
-    [Arguments]  ${Phone}
-    ${PhoneNum}=  Set Variable  ${Phone}
+    #[Arguments]  ${Phone}
+    ${PhoneNum}=  Set Variable  %{PHONE}
     Click Element  ${PhoneNumber}
     Input Text  ${PhoneNumber}   ${PhoneNum}
 
 Shipping Email
     [Tags]  Email Entry
-    [Arguments]  ${EmailA}
-    ${EmailAddress}=  Set Variable  ${EmailA}
+    #[Arguments]  ${EmailA}
+    ${EmailAddress}=  Set Variable  %{EMAILA}
     Click Element  ${Email}
     Input Text  ${Email}  ${EmailAddress}
     Click Element  ${ReviewPayButton}
@@ -150,8 +150,8 @@ Shipping Email
 
 Credit Card Number Entry
     [Tags]  Credit Card Page Confirmation
-    [Arguments]  ${CCN}
-    ${CCN1}=  Set Variable  ${CCN}
+    #[Arguments]  ${CCN}
+    ${CCN1}=  Set Variable  %{CCN}
     Wait Until Element is Visible  ${PaymentMethodHeader}
     Click Element  ${CreditCardNumber}
     Input Text  ${CreditCardNumber}  ${CCN1}
@@ -159,24 +159,24 @@ Credit Card Number Entry
 
 Credit Card Exp Month
     [Tags]  CC Expiration Month
-    [Arguments]  ${MNum}  ${MNumFull}
-    ${MSelection}=  Set Variable  //div[@data-value='${MNum}'][contains(.,'${MNumFull}')]
+    #[Arguments]  ${MNum}  ${MNumFull}
+    ${MSelection}=  Set Variable  //div[@data-value='%{MNUM}'][contains(.,'%{MNUMFULL}')]
     Click Element  ${CCExMonthDropdown}
     Click Element  ${MSelection}
 
 
 Credit Card Exp Year
     [Tags]  CC Expiration Year
-    [Arguments]   ${ExYear}
-    ${ExYear1}=  Set Variable  //div[@data-value='${ExYear}']
+    #[Arguments]   ${ExYear}
+    ${ExYear1}=  Set Variable  //div[@data-value='%{EXYEAR}']
     Click Element  ${CCExpYearDropdown}
     Click Element  ${ExYear1}
     Click Element  ${CCCVNumber}
 
 Credit Card Code
     [Tags]  CC CVN Code
-    [Arguments]  ${CCVN}
-    ${CCVN1}=  Set Variable  ${CCVN}
+    #[Arguments]  ${CCVN}
+    ${CCVN1}=  Set Variable  %{CCVN}
     Input Text  ${CCCVNumber}   ${CCVN1}
     Click Element  ${PlaceOrderButton}
     Sleep  3
